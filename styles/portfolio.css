@@ -9,9 +9,9 @@
 
 .header{
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position:bottom right, left;
 }
 /* header and navigation styles */
 nav {
@@ -70,5 +70,31 @@ nav li {
 .banner-discription{
     font-size: 18px;
     color: #757575;
+    margin-bottom: 30px;
+}
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding:130px 150px;
+
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
     margin-bottom: 30px;
 }
