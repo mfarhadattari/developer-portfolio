@@ -216,13 +216,16 @@ section {
 }
 
 /* Footer Section */
-.footer {
+
+
+/* copyright information */
+.copyright {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
     background-color: #24292F;
     padding: 50px;
-    color: #FD6E0A;
+    color: white;
     font-weight: 600;
     font-size: 20px;
 }
