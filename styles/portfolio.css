@@ -219,11 +219,12 @@ section {
 .contact {
     display: flex;
     justify-content: space-around;
-    gap:100px;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
 }
-.contact .section-title{
+
+.contact .section-title {
     text-align: left;
 }
 
@@ -232,6 +233,25 @@ section {
     font-size: 16px;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+.contact  a{
+    margin-right: 30px;
+}
+
+.contact input[type="email"], input[type="text"],
+textarea {
+    margin-top: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+}
+.contact input[type="email"]:hover,input[type="text"]:hover,
+textarea:hover{
+    border: 2px solid #FD6E0A;
+    border-radius: 10px;
+}
+input{
+    height: 60px;
 }
 
 /* copyright information */
